@@ -120,7 +120,7 @@ font_path = "d/fonts/EEX.ttf"
 original_string = "1-13-540-458-735"
 generated_string = generate_random_string(original_string)
 replacements = [
-    ("500", "1 000", 1),
+    ("10", "1 000", 1),
     ("25.02.2024  19:29:24", "14.04.2024  19:02:36", 1),
     ("500", "1 000", 1),
     ("Владислав Скрябин", "Примерный гражданин", 1),
@@ -133,19 +133,19 @@ replacements = [
 new_size = 16
 new_color = (0.2, 0.2, 0.2)
 
-replace_text_custom(pdf_path, output_path, [replacements[0]], font_path, new_size, new_color, output_path_2,
-                    output_path_3)
-replace_text_custom_2(pdf_path, output_path, [replacements[1]], "d/fonts/dsHeading/400.ttf", 8,
-                      (0.5647058823529412, 0.5647058823529412, 0.5647058823529412), output_path_2, output_path_4, 2.5)
-replace_text_custom_2(pdf_path, output_path, [replacements[2]], "d/fonts/dsHeading/400.ttf", 9, new_color,
-                      output_path_2, output_path_5, 2.5)
-replace_text_custom_2(pdf_path, output_path, [replacements[3]], "d/fonts/dsHeading/400.ttf", 9, new_color,
-                      output_path_2, output_path_6, 3)
-replace_text_custom_2(pdf_path, output_path, [replacements[4]], "d/fonts/dsHeading/400.ttf", 9, new_color,
-                      output_path_2, output_path_7, 3)
-replace_text_custom_2(pdf_path, output_path, [replacements[5]], "d/fonts/dsHeading/400.ttf", 9, new_color,
-                      output_path_2, output_path_8, 2.5)
-replace_text_custom_2(pdf_path, output_path, [replacements[6]], "d/fonts/dsHeading/400.ttf", 9, new_color,
-                      output_path_2, output_path_9, 3)
-replace_text_custom_2(pdf_path, output_path, [replacements[7]], "d/fonts/dsHeading/400.ttf", 9, new_color,
-                      output_path_2, output_path_10, 3)
+# replace_text_custom(pdf_path, output_path, [replacements[0]], font_path, new_size, new_color, output_path_2,
+#                     output_path_3)
+# replace_text_custom_2(pdf_path, output_path, [replacements[1]], "d/fonts/dsHeading/400.ttf", 8,
+#                       (0.5647058823529412, 0.5647058823529412, 0.5647058823529412), output_path_2, output_path_4, 2.5)
+# replace_text_custom_2(pdf_path, output_path, [replacements[2]], "d/fonts/dsHeading/400.ttf", 9, new_color,
+#                       output_path_2, output_path_5, 2.5)
+# replace_text_custom_2(pdf_path, output_path, [replacements[3]], "d/fonts/dsHeading/400.ttf", 9, new_color,
+#                       output_path_2, output_path_6, 3)
+# replace_text_custom_2(pdf_path, output_path, [replacements[4]], "d/fonts/dsHeading/400.ttf", 9, new_color,
+#                       output_path_2, output_path_7, 3)
+# replace_text_custom_2(pdf_path, output_path, [replacements[5]], "d/fonts/dsHeading/400.ttf", 9, new_color,
+#                       output_path_2, output_path_8, 2.5)
+# replace_text_custom_2(pdf_path, output_path, [replacements[6]], "d/fonts/dsHeading/400.ttf", 9, new_color,
+#                       output_path_2, output_path_9, 3)
+# replace_text_custom_2(pdf_path, output_path, [replacements[7]], "d/fonts/dsHeading/400.ttf", 9, new_color,
+#                       output_path_2, output_path_10, 3)

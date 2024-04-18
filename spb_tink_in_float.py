@@ -189,11 +189,11 @@ new_size = 16  # Размер шрифта для нового текста
 new_color = (0.2,0.2,0.2)  # Цвет шрифта для нового текста
 
 
-replace_text_custom(pdf_path, output_path, [replacements[0]], "ТЗ на чеки/ReceiptFont/sbp-tink-in/Heading.ttf", new_size, new_color, output_path_2, output_path_3)
-replace_text_custom(output_path_3, output_path, [replacements[1]], "ТЗ на чеки/ReceiptFont/sbp-tink-in/Heading.ttf", new_size, new_color, output_path_2, output_path_4)
-replace_text_custom(output_path_4, output_path, [replacements[2]], "ТЗ на чеки/ReceiptFont/sbp-tink-in/Heading.ttf", new_size , (0.5647058823529412, 0.5647058823529412, 0.5647058823529412), output_path_2, output_path_5)
-
-replace_text_custom_2(output_path_5, output_path, [replacements[3]], "d/fonts/dsText/400.ttf", 8,(0.5647058823529412, 0.5647058823529412, 0.5647058823529412) , output_path_2, output_path_6, 2.75)
-replace_text_custom_2(output_path_6, output_path, [replacements[4]], "d/fonts/dsText/400.ttf", 9, new_color, output_path_2, output_path_7, 2.75)
-replace_text_custom_2(output_path_7, output_path, [replacements[5]], "d/fonts/dsText/400.ttf", 9 , new_color, output_path_2, output_path_8, 2.75)
-replace_text_custom_2(output_path_8, output_path, [replacements[6]], "d/fonts/dsText/400.ttf", 8 , new_color, output_path_2, output_path_9, 2.75)
+# replace_text_custom(pdf_path, output_path, [replacements[0]], "ТЗ на чеки/ReceiptFont/sbp-tink-in/Heading.ttf", new_size, new_color, output_path_2, output_path_3)
+# replace_text_custom(output_path_3, output_path, [replacements[1]], "ТЗ на чеки/ReceiptFont/sbp-tink-in/Heading.ttf", new_size, new_color, output_path_2, output_path_4)
+# replace_text_custom(output_path_4, output_path, [replacements[2]], "ТЗ на чеки/ReceiptFont/sbp-tink-in/Heading.ttf", new_size , (0.5647058823529412, 0.5647058823529412, 0.5647058823529412), output_path_2, output_path_5)
+#
+# replace_text_custom_2(output_path_5, output_path, [replacements[3]], "d/fonts/dsText/400.ttf", 8,(0.5647058823529412, 0.5647058823529412, 0.5647058823529412) , output_path_2, output_path_6, 2.75)
+# replace_text_custom_2(output_path_6, output_path, [replacements[4]], "d/fonts/dsText/400.ttf", 9, new_color, output_path_2, output_path_7, 2.75)
+# replace_text_custom_2(output_path_7, output_path, [replacements[5]], "d/fonts/dsText/400.ttf", 9 , new_color, output_path_2, output_path_8, 2.75)
+# replace_text_custom_2(output_path_8, output_path, [replacements[6]], "d/fonts/dsText/400.ttf", 8 , new_color, output_path_2, output_path_9, 2.75)
